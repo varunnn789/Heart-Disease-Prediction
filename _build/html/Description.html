@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Links and Video &#8212; Heart Disease Prediction Project</title>
+    <title>Description &#8212; Heart Disease Prediction Project</title>
   
   
   
@@ -34,7 +34,7 @@
     <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
   
@@ -169,8 +169,7 @@
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Links and Video</a></li>
-
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Description</a></li>
 <li class="toctree-l1"><a class="reference internal" href="normalisation_script_final9.html">Code</a></li>
 
 
@@ -309,7 +308,7 @@
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Links and Video</h1>
+    <h1>Description</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -319,13 +318,10 @@
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Links and Video</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#video-demonstration">Video Demonstration</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Description</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#links-to-project">Links to Project:</a></li>
 </ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#links-to-project">Links to Project:</a></li>
-</ul>
-
             </nav>
         </div>
     </div>
@@ -336,21 +332,38 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="links-and-video">
-<h1>Links and Video<a class="headerlink" href="#links-and-video" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="description">
+<h1>Description<a class="headerlink" href="#description" title="Link to this heading">#</a></h1>
 <section id="video-demonstration">
 <h2>Video Demonstration<a class="headerlink" href="#video-demonstration" title="Link to this heading">#</a></h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9wYlM6hy2Kg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </section>
+<section id="id1">
+<h2>Description<a class="headerlink" href="#id1" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Created a normalized database (3NF) and used SQL join statements to fetch data into Pandas DataFrames</p></li>
+<li><p>Explored data using yprofile and correlation matrix, identifying necessary data cleanup tasks</p></li>
+<li><p>Performed stratified train/test split based on data analysis</p></li>
+<li><p>Developed preprocessing pipelines including StandardScaler, MinMaxScaler, LogTransformation, and OneHotEncoding</p></li>
+<li><p>Experimented with multiple classifiers: LogisticRegression, RidgeClassifier, RandomForestClassifier, and XGBClassifier</p></li>
+<li><p>Conducted feature engineering, attribute combination, and selection using Correlation Threshold, Feature Importance, and Variance Threshold</p></li>
+<li><p>Applied PCA for dimensionality reduction, creating a scree plot to select optimal components</p></li>
+<li><p>Designed and executed two custom experiments to further optimize model performance</p></li>
+<li><p>Logged all experiment results in MLFlow on DagsHub, creating F1-score plots for model comparison</p></li>
+<li><p>Saved the final model using joblib and created a FastAPI application to serve it</p></li>
+<li><p>Containerized the FastAPI application using Docker, pushed to Docker Hub, and deployed to a cloud platform</p></li>
+<li><p>Developed a Streamlit app for real-time interaction with the deployed model</p></li>
+</ul>
 </section>
-<section class="tex2jax_ignore mathjax_ignore" id="links-to-project">
-<h1>Links to Project:<a class="headerlink" href="#links-to-project" title="Link to this heading">#</a></h1>
+<section id="links-to-project">
+<h2>Links to Project:<a class="headerlink" href="#links-to-project" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://dagshub.com/singhvarunnn789/EAS503.mlflow/#/experiments/3/runs/39cec5d898fe4322a96519de965399a9">MLFlow/DagsHub Experiments</a></p></li>
 <li><p><a class="reference external" href="https://hub.docker.com/repository/docker/singhvarunnn789/heart-disease-predictor/general">Docker Hub Container</a></p></li>
 <li><p><a class="reference external" href="https://heart-disease-predictor-latest.onrender.com/">Deployed Model</a></p></li>
 <li><p><a class="reference external" href="https://apprender-ghfqkbcthxbxrfdgcomw23.streamlit.app/">Streamlit App</a></p></li>
 </ul>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -418,13 +431,10 @@
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Links and Video</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#video-demonstration">Video Demonstration</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Description</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#links-to-project">Links to Project:</a></li>
 </ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#links-to-project">Links to Project:</a></li>
-</ul>
-
   </nav></div>
 
 </div></div>
